@@ -169,6 +169,17 @@ int waitForButton() {
         Those are the macros
     defined at the start of the file :)
   */
+  while (true) { // While button not pressed
+    if (digitalRead(B1) == HIGH) {
+      return UP;
+    } else if (digitalRead(B2) == HIGH) {
+      return RIGHT;
+    } else if (digitalRead(B3) == HIGH) {
+      return DOWN;
+    } else if (digitalRead(B4) == HIGH) {
+      return LEFT;
+    }
+  }
 }
 
 void loop() {
