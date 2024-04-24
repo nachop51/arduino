@@ -5,16 +5,11 @@
 #ifndef PSTR // Hace feliz a Arduino :)
 #define PSTR
 #endif
-////////////////////////////////////////////////////////////////////////////////////
-// AQUI SE CAMBIAN LOS COLORES
-// LOS COLORES SON: (ROJO, VERDE, AZUL)
 
 #define COLOR_CABEZA matrix.Color(255, 0, 255)
 #define COLOR_CUERPO matrix.Color(255, 0, 128)
 #define COLOR_MANZANA matrix.Color(0, 255, 0)
 #define TIEMPO_JUEGO 350
-
-////////////////////////////////////////////////////////////////////////////////////
 
 #define PIN 12 // PIN para controlar la Matriz LED
 // Definicion de pines de botones
